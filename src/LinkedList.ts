@@ -74,7 +74,10 @@ export class LinkedList extends Sorter {
     }
     let node: Node | null = this.head;
     while (node) {
+      console.log("*");
       console.log(node);
+      console.log("**");
+      console.log(node.data);
       node = node.next;
     }
   }

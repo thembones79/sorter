@@ -13,8 +13,9 @@ linkedList.sort();
 linkedList.print();
 
 const charactersCollection = new CharactersCollection("Michal Szumnarski");
-
+console.log("----- INIT -----");
 console.log(charactersCollection.data);
+console.log("---------------");
 charactersCollection.sort();
 console.log(charactersCollection.data);
 
@@ -29,15 +30,19 @@ const collectionOfNumbers = new NumbersCollection([
   9,
   8,
   7,
+  1,
 ]);
 const numbersCollection = new NumbersCollection([10, 3, -5, 0]);
 
+console.log("----- START -----");
 console.log(collectionOfNumbers.data);
-
+console.log("---------------");
 console.log(numbersCollection.data);
+console.log("---------------");
 numbersCollection.sort();
 collectionOfNumbers.sort();
-
+console.log("---------------");
 console.log(collectionOfNumbers.data);
-
+console.log("---------------");
 console.log(numbersCollection.data);
+console.log("----- END -----");
